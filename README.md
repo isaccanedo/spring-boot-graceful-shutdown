@@ -3,3 +3,4 @@
 - `/hello` returns `HelloWorld` and triggers a task internally which needs to be taken care before shutting down.
     - `curl http://localhost:8080/hello -X GET` - Command used to trigger the endpoint
 - By default `@PreDestroy` can be used to hook a custom implementation after tomcat says all requests are processed and timeout has expired.
+<img src="https://github.com/isaccanedo/spring-boot-graceful-shutdown/blob/master/src/img/Intellij_image.jpg">
